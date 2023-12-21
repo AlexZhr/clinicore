@@ -1,0 +1,15 @@
+%h1 Welcome to ClinicCore Management System
+-# %p
+  -# %a{:href => "/patients"} Patients
+  -# %a{:href => "/doctors"} Doctors
+  -# %a{:href => "/appointments"} Appointments
+  -# %a{:href => "/prescriptions"} Prescriptions
+  -# %a{:href => "/patients/new"} New Patient
+  -# %a{:href => "/doctors/new"} New Doctor
+
+- if notice
+  %p.notice= notice
+  %p.alert= alert
+-# %p
+-#   %a{:href => "/patients"} Patients
+-#   %a{:href => "/doctors"} Doctors
